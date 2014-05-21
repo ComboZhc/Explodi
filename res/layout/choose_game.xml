@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="2dip" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="2dip" >
+
+        <TextView
+            android:id="@+id/choose_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_mode"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" >
+        </TextView>
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/choose_classic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dip"
+                android:adjustViewBounds="true"
+                android:background="@drawable/icon_unpressed"
+                android:maxHeight="80dip"
+                android:maxWidth="80dip"
+                android:scaleType="fitXY"
+                android:src="@drawable/icon_classic" >
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/choose_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dip"
+                android:adjustViewBounds="true"
+                android:background="@drawable/icon_unpressed"
+                android:maxHeight="80dip"
+                android:maxWidth="80dip"
+                android:scaleType="fitXY"
+                android:src="@drawable/icon_time" >
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/choose_fill"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dip"
+                android:adjustViewBounds="true"
+                android:background="@drawable/icon_unpressed"
+                android:maxHeight="80dip"
+                android:maxWidth="80dip"
+                android:scaleType="fitXY"
+                android:src="@drawable/icon_fill" >
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/choose_gravity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dip"
+                android:adjustViewBounds="true"
+                android:background="@drawable/icon_unpressed"
+                android:maxHeight="80dip"
+                android:maxWidth="80dip"
+                android:scaleType="fitXY"
+                android:src="@drawable/icon_gravity" >
+            </ImageButton>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="2dip" >
+
+        <TextView
+            android:id="@+id/choose_difficulty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_difficulty"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" >
+        </TextView>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/choose_easy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dip"
+                android:adjustViewBounds="true"
+                android:background="@drawable/icon_unpressed"
+                android:maxHeight="80dip"
+                android:maxWidth="80dip"
+                android:scaleType="fitXY"
+                android:src="@drawable/icon_easy" >
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/choose_medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dip"
+                android:adjustViewBounds="true"
+                android:background="@drawable/icon_unpressed"
+                android:maxHeight="80dip"
+                android:maxWidth="80dip"
+                android:scaleType="fitXY"
+                android:src="@drawable/icon_medium" >
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/choose_hard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dip"
+                android:adjustViewBounds="true"
+                android:background="@drawable/icon_unpressed"
+                android:maxHeight="80dip"
+                android:maxWidth="80dip"
+                android:scaleType="fitXY"
+                android:src="@drawable/icon_hard" >
+            </ImageButton>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_start_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dip"
+        android:onClick="onClick"
+        android:text="@string/button_start_game" >
+    </Button>
+
+</LinearLayout>

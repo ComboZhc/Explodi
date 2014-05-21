@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DialogStyle" parent="@android:style/Theme.Dialog">
+　
+              <item name="android:buttonStyle">@style/ButtonStyle</item>
+        <item name="android:windowBackground">@drawable/shape_dialog</item>
+        <item name="android:cacheColorHint">#00000000</item>
+
+　　</style>
+
+    <style name="ChooseDialogStyle" parent="DialogStyle">
+        <item name="android:windowBackground">@drawable/shape_choose_dialog</item>
+    </style>
+
+    <style name="SettingDialogStyle" parent="DialogStyle">
+        <item name="android:windowBackground">@drawable/shape_setting</item>
+    </style>
+
+    <style name="PreferenceStyle" parent="@android:style/Theme">
+        <item name="android:windowBackground">@drawable/main_background</item>
+        <item name="android:cacheColorHint">#00000000</item>
+        <item name="android:buttonStyle">@style/ButtonStyle</item>
+    </style>
+
+    <style name="ButtonStyle" parent="@android:style/Widget.Button">
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:textSize">16dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">2dip</item>
+        <item name="android:paddingTop">0dip</item>
+        <item name="android:paddingBottom">0dip</item>
+        <item name="android:paddingLeft">5dip</item>
+        <item name="android:paddingRight">5dip</item>
+        <item name="android:background">@drawable/button_explodi</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="ButtonTheme" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:buttonStyle">@style/ButtonStyle</item>
+    </style>
+
+    <style name="Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/shape_info</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="DialogText">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="DialogText.Title">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="InfoDialog" parent="Dialog">
+        <item name="android:windowBackground">@drawable/shape_info</item>
+    </style>
+
+</resources>

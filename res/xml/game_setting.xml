@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <CheckBoxPreference
+        android:id="@+id/check_sound"
+        android:defaultValue="true"
+        android:key="Sound"
+        android:summary="@string/summary_sound"
+        android:title="@string/title_sound" >
+    </CheckBoxPreference>
+    <CheckBoxPreference
+        android:id="@+id/check_shake"
+        android:defaultValue="true"
+        android:key="Shake"
+        android:summary="@string/summary_shake"
+        android:title="@string/title_shake" >
+    </CheckBoxPreference>
+    <CheckBoxPreference
+        android:id="@+id/check_oneclick"
+        android:defaultValue="false"
+        android:key="OneClick"
+        android:summary="@string/summary_oneclick"
+        android:title="@string/title_oneclick" >
+    </CheckBoxPreference>
+
+</PreferenceScreen>

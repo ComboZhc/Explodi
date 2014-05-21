@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">囧方块</string>
+    <string name="app_version">v1.1.4</string>
+    <string name="info_quit">
+    	你确定要退出吗?
+    </string>
+	<string name="info_abort">
+    	你确定要放弃吗?
+	</string>
+	<string name="info_clear_achievements">
+		你确定要清除这些成就吗？
+	</string>
+	<string name="info_clear_records">
+		你确定要清除这些纪录吗？
+	</string>
+	
+	<string name="info_post_successfully">成功发布状态</string>
+	<string name="info_post_canceled">取消状态</string>
+	<string name="info_login_successfully">成功登录</string>
+	<string name="info_logout_successfully">成功登出</string>
+	<string name="info_auth_canceled">认证失败</string>
+	<string name="info_login_canceled">取消登录</string>
+	<string name="info_renren_error">人人网错误</string>
+	<string name="title_renren">人人网</string>
+	<string name="title_renren_error">人人网错误</string>
+    <string name="title_help">帮助</string>
+    <string name="title_help_summary">如何操作</string>
+    <string name="text_help_summary">
+    	两个或以上的相邻方块可以消除。
+    	\n\n首先，你需要轻触你所想要消除的方块，他们会被高亮显示。
+    	\n\n再次轻触，这些方块就会被消除。
+    	\n\n你也可以在设置中改为轻触一次即可消除。Time模式下强烈推荐！
+    	\n\n此程序由ComboZhc和zofoo共同编写
+    	\n\n特别鸣谢zz, imlixiao, jeffrolfnlu, ferrarima。
+    </string>
+    <string name="text_help_classic">
+    	游戏区域中可能出现2x2的方块，消除它们会使分数翻倍。
+    	\n\n一次清除5块以上也会有额外加分。
+    	\n\n你的目标是：消除所有方块！
+    	\n\n此模式没有时间限制。
+    </string>
+    <string name="text_help_time">
+    	游戏区域分成上下两块。
+    	\n\n每隔3秒，上下区域中都会出现新的方块。
+    	\n\n如果新的方块遇到了中间的闪电，游戏失败。
+    	\n\n你的目标是：不断清楚方块并撑过一分钟、
+    	\n\n此模式也适合与同伴一起玩。
+    </string>
+    <string name="text_help_fill">
+    	每次清楚方块的时候，方块所在位置的黑色背景会被涂上色。
+    	\n\n你的目标是：在尽量短的时间内，给游戏区域中所有的黑色背景涂上色。
+   		\n\n此模式设有时间限制！
+   	</string>
+    <string name="text_help_gravity">
+    	与经典模式相似，但如何使方块下落取决于手机的重力感应
+    	\n\n你的目标是：消除所有方块！
+    	\n\n此模式设有时间限制！
+    </string>
+    <string name="title_start">囧方块</string>
+    <string name="title_result">结果</string>
+    <string name="title_record">纪录</string>
+    <string name="title_sound">音效</string>
+    <string name="summary_sound">游戏进行时播放音效</string>
+    <string name="title_shake">震动</string>
+    <string name="summary_shake">游戏结束后的震动特效</string>
+    <string name="title_oneclick">一次消除</string>
+    <string name="summary_oneclick">轻触一次屏幕即可消除</string>
+    <string name="title_gamesetting">设置</string>
+    <string name="title_finish">结束！</string>
+    <string name="toast_gravity_mode">如果此时已经没有可行消除，请按MENU键，选择"结束!"</string>
+	<string name="title_achievement">成就</string>
+	<string name="text_mode">模式</string>
+	<string name="text_difficulty">难度</string>
+	<string name="text_result">结果</string>
+	<string name="text_date">日期</string>
+	<string name="text_score">分数</string>
+	<string name="text_complete">完成率</string>
+	<string name="text_accuracy">准确率</string>
+	<string name="text_time">耗时</string>
+	<string name="text_no_record">没有纪录</string>
+	<string name="text_new_record">获得新纪录</string>
+	<string name="text_new_achievement">获得新成就</string>
+	<string name="title_choose">选择游戏</string>
+	<string name="button_start_game">开始</string>
+	<string name="button_clear_records">清除所有纪录</string>
+	<string name="button_clear_achievements">清除所有成就</string>
+	<string name="button_share">分享到人人网</string>
+	<string name="button_connect_renren">登录人人网</string>
+	<string name="button_logout_renren">登出人人网</string>
+	<string name="button_restart">重玩</string>
+	<string name="text_yes">确定</string>
+	<string name="text_no">取消</string>
+	<string name="text_win">胜利</string>
+	<string name="text_lose">失败</string>
+	<string name="mode_classic">经典</string>
+	<string name="mode_time">时间</string>
+	<string name="mode_fill">涂色</string>
+	<string name="mode_gravity">重力</string>
+	<string name="text_summary">综述</string>
+    <string name="text_status" formatted="false">我刚刚在玩囧方块(Explodi)的 %s模式,好好玩呀！我拿了%d分,只花了%d秒,完成度有%s，准确度也有%s呢.</string>
+    <string name="text_status_extra">我还获得了一项新成就</string>
+    <string name="error_renren" formatted="false">人人错误: %s</string>
+    <string name="error_throwable" formatted="false">错误: %s</string>
+</resources>

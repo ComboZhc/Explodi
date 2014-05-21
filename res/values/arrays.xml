@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<array name="difficulty">
+		<item>Easy</item>
+		<item>Normal</item>
+		<item>Hard</item>
+	</array>
+	<array name="mode">
+		<item>Classic Mode</item>
+		<item>Time Mode</item>
+		<item>Fill Mode</item>
+		<item>Gravity Mode</item>
+	</array>
+	<array name="scoreColors">
+		<item>#ffff7f7f</item>
+		<item>#ff7fc9ff</item>
+		<item>#ffffc37f</item>
+		<item>#ffa3ff7f</item>
+		<item>#ffc57fff</item>
+		<item>#ffc3c3c3</item>
+	</array>
+	<array name="achievements_title">
+		<item>Hero</item>
+		<item>Star</item>
+		<item>Trophy</item>
+		<item>Farseer</item>
+		<item>Master</item>
+		<item>Gold Eye</item>
+		<item>Painter</item>
+		<item>Lightning</item>
+	</array>
+	<array name="achievements_summary">
+		<item>Win all modes with hard difficulty</item>
+		<item>Play over 24 hours to catch the star</item>
+		<item>Win 100 games to obtain the trophy</item>
+		<item>Finish a game of a score over 30000</item>
+		<item>Win 5 games of CLASSIC MODE in a row with 100% completeness</item>
+		<item>Win 3 games of TIME MODE in a row with 100% accuracy</item>
+		<item>Fill 15 positions in FILL MODE in one click</item>
+		<item>Win a game of GRAVITY MODE within 30 seconds</item>
+	</array>
+</resources>

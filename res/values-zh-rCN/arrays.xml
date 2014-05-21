@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<array name="difficulty">
+		<item>简单</item>
+		<item>普通</item>
+		<item>困难</item>
+	</array>
+	<array name="mode">
+		<item>经典模式</item>
+		<item>时间模式</item>
+		<item>涂色模式</item>
+		<item>重力模式</item>
+	</array>
+	<array name="scoreColors">
+		<item>#ffff7f7f</item>
+		<item>#ff7fc9ff</item>
+		<item>#ffffc37f</item>
+		<item>#ffa3ff7f</item>
+		<item>#ffc57fff</item>
+		<item>#ffc3c3c3</item>
+	</array>
+	<array name="achievements_title">
+		<item>英雄</item>
+		<item>星星</item>
+		<item>终极奖杯</item>
+		<item>先知者</item>
+		<item>大师</item>
+		<item>火眼金睛</item>
+		<item>艺术家</item>
+		<item>神速</item>
+	</array>
+	<array name="achievements_summary">
+		<item>在所有模式的困难难度下获得胜利</item>
+		<item>超过24小时的游戏时间</item>
+		<item>总共获得100场胜利</item>
+		<item>在一局游戏中分数超过30000</item>
+		<item>连续5局经典模式以100%的完成率获胜</item>
+		<item>连续3局时间模式以100%的准确率获胜</item>
+		<item>涂色模式中一次涂色15块以上</item>
+		<item>30秒内完成一局重力模式</item>
+	</array>
+</resources>

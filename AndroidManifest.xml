@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.example.explodi"
+    android:versionCode="8"
+    android:versionName="1.5" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        <activity
+            android:name=".Explodi"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".dialog.DialogChooseGame"
+            android:label="@string/title_choose"
+            android:screenOrientation="portrait"
+            android:theme="@style/ChooseDialogStyle" >
+        </activity>
+        <activity
+            android:name=".Result"
+            android:label="@string/title_result"
+            android:screenOrientation="portrait"
+            android:theme="@style/ChooseDialogStyle" >
+        </activity>
+        <activity
+            android:name=".mode.ClassicMode"
+            android:label="@string/title_start"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".mode.TimeMode"
+            android:label="@string/title_start"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".mode.FillMode"
+            android:label="@string/title_start"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".mode.GravityMode"
+            android:label="@string/title_start"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Help"
+            android:label="@string/title_help"
+            android:screenOrientation="portrait"
+            android:theme="@style/PreferenceStyle" >
+        </activity>
+        <activity
+            android:name=".Record"
+            android:label="@string/title_record"
+            android:screenOrientation="portrait"
+            android:theme="@style/PreferenceStyle" >
+        </activity>
+        <activity
+            android:name=".GameSetting"
+            android:label="@string/title_gamesetting"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingDialogStyle" >
+        </activity>
+        <activity
+            android:name=".Achievement"
+            android:label="@string/title_achievement"
+            android:screenOrientation="portrait"
+            android:theme="@style/PreferenceStyle" >
+        </activity>
+    </application>
+
+</manifest>

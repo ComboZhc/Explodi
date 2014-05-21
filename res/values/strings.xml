@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Explodi</string>
+    <string name="app_version">v1.5</string>
+    <string name="info_quit">
+    	Do you really want to quit?
+    </string>
+	<string name="info_abort">
+    	Do you really want to abort?
+	</string>
+	<string name="info_clear_achievements">
+		Do you really want to clear all these achievements?
+	</string>
+	<string name="info_clear_records">
+		Do you really want to clear all these records?
+	</string>
+	<string name="info_post_successfully">Post successfully!</string>
+	<string name="info_post_canceled">Post canceled!</string>
+	<string name="info_login_successfully">Login successfully!</string>
+	<string name="info_logout_successfully">Logout successfully!</string>
+	<string name="info_auth_canceled">Auth canceled!</string>
+	<string name="info_login_canceled">Login canceled!</string>
+	<string name="info_renren_error">Renren error!</string>
+	<string name="title_renren">www.renren.com</string>
+	<string name="title_renren_error">renren.com Error</string>
+    <string name="title_help">Help</string>
+    <string name="title_help_summary">How To Play</string>
+    <string name="text_help_summary">
+    	Two or more adjoining squares with the same color could be cleared.
+    	\n\nTo clear them, you need first click the squares you want, they will then be highlighted.
+    	\n\nClick again to clear them if you really want to.
+    	\n\nYou could also change the SETTING to click once to clear them. This is strongly recommended in TIME MODE.
+    	\n\nThis program is created by Team BIUBIUBIU: ComboZhc and Zoofo.
+    	\n\nSpecial thanks to Zhi Zhou, Xiao Li, Jianghao Lu, Zhoujun Ma for their advice and test.
+    </string>
+    <string name="text_help_classic">
+    	There are several big squares, the score will be multiplied when you clear them.
+    	\n\nIf you clear 5 or more adjoining squares, you will get bonus score. 
+    	\n\nYour target is to clear all the squares on the screen.
+    	\n\nYour time is not limited.
+    </string>
+    <string name="text_help_time">
+    	The screen is divided into two parts.
+    	\n\nEvery 3 seconds, a new row of squares would appear on both parts.
+    	\n\nYou would lose if any square collides with the lightning.
+    	\n\nYour target is to keep clearing squares in 1 minute and prevent them from reaching the lightning.
+    	\n\nIt is highly recommended to cooperate with your friends!
+    </string>
+    <string name="text_help_fill">
+    	Each time you clear the squares, the black background in their positions would be filled.
+    	\n\nYour target is to clear squares on every position on the screen as soon as possible.
+   		\n\nYour time is limited.
+   	</string>
+    <string name="text_help_gravity">
+    	This is a little different from classic mode in that you can use the gravity sensor to control how the squares move.
+    	\n\nYour target is to clear all the squares on the screen.
+    	\n\nYour time is limited.
+    </string>
+    <string name="title_start">Explodi</string>
+    <string name="title_result">Result</string>
+    <string name="title_record">Record</string>
+    <string name="title_sound">Sound</string>
+    <string name="summary_sound">Play sounds during the game</string>
+    <string name="title_shake">Shake</string>
+    <string name="summary_shake">Shake when the game is over</string>
+    <string name="title_oneclick">One Click</string>
+    <string name="summary_oneclick">Click once to clear</string>
+    <string name="title_gamesetting">Settings</string>
+    <string name="title_finish">Finish!</string>
+    <string name="toast_gravity_mode">click MENU then FINISH to finish this game if there are no more moves.</string>
+	<string name="title_achievement">Achievement</string>
+	<string name="text_mode">Mode</string>
+	<string name="text_difficulty">Difficulty</string>
+	<string name="text_result">Result</string>
+	<string name="text_date">Date</string>
+	<string name="text_score">Score</string>
+	<string name="text_complete">Complete</string>
+	<string name="text_accuracy">Accuracy</string>
+	<string name="text_time">Time</string>
+	<string name="text_no_record">No Record</string>
+	<string name="text_new_record">New Record</string>
+	<string name="text_new_achievement">New Achievement</string>
+	<string name="title_choose">Choose Game</string>
+	<string name="button_start_game">Start Game</string>
+	<string name="button_clear_records">Clear all records</string>
+	<string name="button_clear_achievements">Clear all achievements</string>
+	<string name="button_share">Share Renren</string>
+	<string name="button_connect_renren">Login RenRen</string>
+	<string name="button_logout_renren">Logout RenRen</string>
+	<string name="button_restart">Restart</string>
+	<string name="text_yes">YES</string>
+	<string name="text_no">NO</string>
+	<string name="text_win">YOU WIN</string>
+	<string name="text_lose">YOU LOSE</string>
+	<string name="mode_classic">Classic</string>
+	<string name="mode_time">Time</string>
+	<string name="mode_fill">Fill</string>
+	<string name="mode_gravity">Gravity</string>
+	<string name="text_summary">Summary</string>
+	<string name="text_ready">READY</string>
+	<string name="text_go">GO!</string>
+    <string name="text_status" formatted="false">I was playing Explodi in %s Mode. LOL. I got %d points in %d seconds! Where my completeness is %s and the accuracy is %s.</string>
+    <string name="text_status_extra">I even achieved a new record!</string>
+    <string name="error_renren" formatted="false">RenRen Error: %s</string>
+    <string name="error_throwable" formatted="false">Error: %s</string>
+</resources>

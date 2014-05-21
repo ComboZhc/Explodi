@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/record_achievement_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="2dip" >
+
+    <ImageView
+        android:id="@+id/record_achievement_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:maxHeight="40dip"
+        android:maxWidth="40dip"
+        android:scaleType="fitXY" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/record_achievement_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hero"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" >
+    </TextView>
+
+</LinearLayout>
