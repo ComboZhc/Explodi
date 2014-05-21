@@ -8,10 +8,9 @@ import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.Matrix;
 import android.graphics.Paint;
+import android.graphics.Paint.Style;
 import android.graphics.Point;
 import android.graphics.Rect;
-import android.graphics.Paint.Align;
-import android.graphics.Paint.Style;
 import android.util.AttributeSet;
 import android.view.View;
 
@@ -115,21 +114,16 @@ public abstract class AbstractView extends View {
 
 	public void drawTextByBaseline(Canvas canvas, String str, Point pointBase,
 			int textSize, int colorFill, int colorStroke, int alpha, Paint paint) {
-		Paint tmpPaint = new Paint();
-		tmpPaint.set(paint);
-		paint.setAntiAlias(true);
-		paint.setTextAlign(Align.CENTER);
-		paint.setFakeBoldText(true);
 		paint.setTextSize(textSize);
+		paint.setColor(colorStroke);
+		paint.setAlpha(alpha);
+		paint.setStyle(Style.STROKE);
+		paint.setStrokeWidth(2);
+		canvas.drawText(str, 0, str.length(), pointBase.x, pointBase.y, paint);
 		paint.setColor(colorFill);
 		paint.setStyle(Style.FILL);
 		paint.setAlpha(alpha);
 		canvas.drawText(str, 0, str.length(), pointBase.x, pointBase.y, paint);
-		paint.setColor(colorStroke);
-		paint.setAlpha(alpha);
-		paint.setStyle(Style.STROKE);
-		canvas.drawText(str, 0, str.length(), pointBase.x, pointBase.y, paint);
-		paint.set(tmpPaint);
 	}
 
 	public void drawImageByCorner(Canvas canvas, Bitmap bitmap, int srcX,

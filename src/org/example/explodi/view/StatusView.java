@@ -47,6 +47,9 @@ public class StatusView extends AbstractView {
 		this.game = (AbstractMode)context;
 		this.typeface = Typeface.createFromAsset(this.getResources().getAssets(), "cooper.ttf");
 		this.textPaint.setTypeface(typeface);
+		this.textPaint.setAntiAlias(true);
+		this.textPaint.setTextAlign(Align.CENTER);
+		this.textPaint.setFakeBoldText(true);
 		Log.d(TAG, "onStatusView");
 	}
 	@Override 
@@ -68,6 +71,7 @@ public class StatusView extends AbstractView {
 		totalScorePoint.x = w;
 		totalScorePoint.y = (int) (h / 2 - (fontMetrics.ascent + fontMetrics.descent) / 2);
 		game.setStatusViewReady(true);
+		
 	}
 
 	
